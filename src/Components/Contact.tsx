@@ -36,21 +36,35 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">Toulouse, France-Occitanie, 31300</p>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                PHONE
+              </h2>
+              <p className="leading-relaxed">+33 6 38 64 58 28</p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+              {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
-              </h2>
+              </h2> */}
               <a
                 href="mailto:mathieu.roussel.pro@gmail.com"
                 className="text-indigo-400 leading-relaxed"
               >
                 mathieu.roussel.pro@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">06 38 64 58 28</p>
+              <p>
+                <a
+                  href="https://github.com/abaddon101?tab=repositories"
+                  className="text-indigo-400 leading-relaxed"
+                >
+                  <p>Github profil</p>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/mathieu-roussel-70000ba5/"
+                  className="text-indigo-400 leading-relaxed"
+                >
+                  <p>Linkedin profil</p>
+                </a>
+              </p>
             </div>
           </div>
         </div>
