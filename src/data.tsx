@@ -1,34 +1,61 @@
+import miniatureProjetBooki from "./assets/miniatureProjetBooki.png";
+import miniatureProjetOhMyFood from "./assets/miniatureProjetOhMyFood.png";
+import miniatureGameOn from "./assets/miniatureGameOn.png";
+import miniatureFisheye from "./assets/miniatureFisheye.png";
+import miniatureLesPetitsPlats from "./assets/miniatureLesPetitsPlats.png";
+import miniatureProjetKasa from "./assets/miniatureProjetKasa.png";
+import miniatureProjetSportsee from "./assets/miniatureProjetSportsee.png";
+
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    title: "Projet Booki",
+    subtitle: "Projet Booki",
+    description: "Implementation of a webpage from a maquette with html & css",
+    image: miniatureProjetBooki,
+    link: "https://abaddon101.github.io/Projet-Booki/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "OhMyFood",
+    subtitle: "OhMyFood",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+      "Implementation and animation of a webpage from a maquette with html & css & sass ",
+    image: miniatureProjetOhMyFood,
+    link: "https://abaddon101.github.io/Ohmyfood/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+    title: "GameOn",
+    subtitle: "GameOn",
+    description: "Create a Landing Page with JavasScript ",
+    image: miniatureGameOn,
+    link: "https://abaddon101.github.io/GameOn-website-FR/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Fisheye",
+    subtitle: "Fisheye",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+      "Creation of an accessible photographer platform  with JavaScript",
+    image: miniatureFisheye,
+    link: "https://abaddon101.github.io/Roussel_Mathieu_P6_code_102022/",
+  },
+  {
+    title: "Les Petits Plats",
+    subtitle: "Les Petits Plats",
+    description: "Create a search/sort Algorithm with Javascript",
+    image: miniatureLesPetitsPlats,
+    link: "https://projet-les-petits-plats.vercel.app/",
+  },
+  {
+    title: "Kasa",
+    subtitle: "Kasa",
+    description: "Creation of a React Project",
+    image: miniatureProjetKasa,
+    link: "https://project-kasa.vercel.app/",
+  },
+  {
+    title: "Sportsee",
+    subtitle: "Sportsee",
+    description: "Creation of a Typescript React Project",
+    image: miniatureProjetSportsee,
+    link: "https://project-12-sportsee.vercel.app/dashboard/12#",
   },
 ];
