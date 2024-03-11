@@ -88,3 +88,5 @@ export const skills = [
 
   // Ajoutez d'autres compétences ici au besoin
 ];
+
+export const testimonials = [{}];

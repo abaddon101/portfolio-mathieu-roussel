@@ -2,6 +2,7 @@ import React from "react";
 import photoDeProfil from "../assets/photoDeProfil.jpeg";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Contact from "./Contact";
 
 function About() {
   return (
@@ -48,6 +49,7 @@ function About() {
       </div>
       <Skills />
       <Projects />
+      <Contact />
 
       {/* Conteneur indépendant pour le composant Projects */}
     </section>
