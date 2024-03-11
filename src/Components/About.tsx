@@ -20,7 +20,7 @@ function About() {
             As junior Front-end developer, I am passionate about creating
             captivating digital experiences. My training at OpenClassrooms has
             equipped me to design dynamic websites and advanced applications
-            using react and Typescript. My unique background, blending military
+            using react and Typescript. My background, blending military
             and commercial experiences, has reinforced my rigor and adaptability
             in the field of software development.
           </p>
