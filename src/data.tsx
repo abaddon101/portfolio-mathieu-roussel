@@ -67,3 +67,11 @@ export const projects = [
     link: "https://project-14-wealth-health.vercel.app/",
   },
 ];
+
+export const skills = [
+  "JavaScript",
+  "React",
+  "HTML",
+  "CSS",
+  // Ajoutez d'autres compétences ici au besoin
+];

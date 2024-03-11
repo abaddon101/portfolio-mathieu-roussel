@@ -15,6 +15,7 @@ const App: React.FunctionComponent<IApplicationProps> = (props) => {
   return (
     <BrowserRouter>
       <main className="text-gray-400 bg-gray-900 body-font">
+        <Navbar />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/" element={<Contact />} />
