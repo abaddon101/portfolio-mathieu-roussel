@@ -70,8 +70,21 @@ export const projects = [
 
 export const skills = [
   "JavaScript",
-  "React",
   "HTML",
   "CSS",
+  "SASS",
+  "Typescript",
+  "Jquery",
+  "React",
+  "React Router",
+  "Redux Toolkit",
+  "Recharts",
+  "Npm",
+  "Github",
+  "Github Desktop",
+  "Figma",
+  "Agil method",
+  "Unit tests",
+
   // Ajoutez d'autres compétences ici au besoin
 ];
