@@ -5,6 +5,7 @@ import miniatureFisheye from "./assets/miniatureFisheye.png";
 import miniatureLesPetitsPlats from "./assets/miniatureLesPetitsPlats.png";
 import miniatureProjetKasa from "./assets/miniatureProjetKasa.png";
 import miniatureProjetSportsee from "./assets/miniatureProjetSportsee.png";
+import miniatureWealthHealth from "./assets/miniatureWealthHealth.png";
 
 export const projects = [
   {
@@ -57,5 +58,12 @@ export const projects = [
     description: "Creation of a Typescript React Project",
     image: miniatureProjetSportsee,
     link: "https://project-12-sportsee.vercel.app/dashboard/12#",
+  },
+  {
+    title: "Wealth health",
+    subtitle: "Wealth health",
+    description: "Creation of a Library for Npm with Typescript React ",
+    image: miniatureWealthHealth,
+    link: "https://project-14-wealth-health.vercel.app/",
   },
 ];
