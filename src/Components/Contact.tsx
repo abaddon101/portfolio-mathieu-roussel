@@ -42,22 +42,22 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
-                97 Warren St. <br />
-                New York, NY 10007
-              </p>
+              <p className="mt-1">Toulouse, France-Occitanie, 31300</p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                reedbarger@email.com
+              <a
+                href="mailto:mathieu.roussel.pro@gmail.com"
+                className="text-indigo-400 leading-relaxed"
+              >
+                mathieu.roussel.pro@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">123-456-7890</p>
+              <p className="leading-relaxed">06 38 64 58 28</p>
             </div>
           </div>
         </div>
