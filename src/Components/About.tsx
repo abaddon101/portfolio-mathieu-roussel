@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import photoDeProfil from "../assets/photoDeProfil.jpeg";
+import Projects from "./Projects";
 
 function About() {
+  const [changePage, setChangePage] = useState(false);
+
+  // Fonction pour basculer l'état de la page
+  const togglePage = () => {
+    setChangePage(!changePage);
+  };
+
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -23,12 +31,12 @@ function About() {
             >
               Work With Me
             </a>
-            <a
-              href="#projects"
+            <button
+              onClick={togglePage}
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
               See My Past Work
-            </a>
+            </button>
           </div>
         </div>
         <div className="w-32 h-32 rounded-full mx-auto">
@@ -39,6 +47,12 @@ function About() {
           />
         </div>
       </div>
+      {/* Conteneur indépendant pour le composant Projects */}
+      {changePage && (
+        <div className="projects-container">
+          <Projects />
+        </div>
+      )}
     </section>
   );
 }
