@@ -12,9 +12,15 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            I’ve had the opportunity to work on various project, from converting
+            design into websites to building sophisticated web applications. My
+            most significant contribution has been modernizing JQuery library
+            into React/TypeScript, showcasing my ability to adapt to emerging
+            technologies. I’ve also delved into web animation with CSS & SASS,
+            adding an interactive touch to my creations. Furthermore, I’ve
+            designed advanced analytics dashboards using React, React Router,
+            and Recharts, and integrated APPI functionalities for banking
+            applications.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -22,7 +28,8 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="miniatures"
@@ -37,7 +44,6 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
-                  
                 </div>
               </div>
             </a>
