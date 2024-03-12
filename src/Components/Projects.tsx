@@ -23,12 +23,13 @@ export default function Projects() {
             applications.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div id="container-project" className="">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4"
+              style={{ width: "100%" }}
             >
               <div className="flex relative">
                 <img
